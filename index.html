@@ -8,6 +8,7 @@
     <meta name="keywords"
         content="Threads, Marketing, Analytics, AI, Content Creation, Scheduling, Follower Management, Social Listening, Multi-Account Management">
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <style>
         body {
             background-color: #F7FAFC;
@@ -38,9 +39,16 @@
             max-width: 60rem;
             margin: 2rem auto;
             display: grid;
-            grid-template-columns: 1fr 1fr;
+            grid-template-columns: 1fr;
             gap: 2rem;
         }
+
+        @media (min-width: 768px) {
+            .content {
+                grid-template-columns: 1fr 1fr;
+            }
+        }
+
 
         .content div {
             padding: 1rem;
@@ -61,6 +69,10 @@
             padding: 1rem;
         }
 
+        .trial iframe {
+            width: 100%;
+        }
+
         .trial h2 {
             font-size: 2rem;
             color: #2D3748;
@@ -68,6 +80,16 @@
 
         .trial p {
             color: #4A5568;
+        }
+
+        iframe[data-tally-src] {
+            width: 100%;
+        }
+
+        @media (min-width: 768px) {
+            iframe[data-tally-src] {
+                width: 50%;
+            }
         }
 
         .footer {
@@ -91,9 +113,9 @@
 
     <div style="display: flex; justify-content: center;">
         <iframe data-tally-src="https://tally.so/embed/wLzLxO?alignLeft=1&transparentBackground=1&dynamicHeight=1"
-                loading="lazy" width="50%" height="210" frameborder="0" marginheight="100" marginwidth="0"
-                title="#1 Analytics Tool of Threads APP"></iframe>
-                <script>var d = document, w = "https://tally.so/widgets/embed.js", v = function () { "undefined" != typeof Tally ? Tally.loadEmbeds() : d.querySelectorAll("iframe[data-tally-src]:not([src])").forEach((function (e) { e.src = e.dataset.tallySrc })) }; if ("undefined" != typeof Tally) v(); else if (d.querySelector('script[src="' + w + '"]') == null) { var s = d.createElement("script"); s.src = w, s.onload = v, s.onerror = v, d.body.appendChild(s); }</script>
+            loading="lazy" width="50%" height="210" frameborder="0" marginheight="100" marginwidth="0"
+            title="#1 Analytics Tool of Threads APP"></iframe>
+        <script>var d = document, w = "https://tally.so/widgets/embed.js", v = function () { "undefined" != typeof Tally ? Tally.loadEmbeds() : d.querySelectorAll("iframe[data-tally-src]:not([src])").forEach((function (e) { e.src = e.dataset.tallySrc })) }; if ("undefined" != typeof Tally) v(); else if (d.querySelector('script[src="' + w + '"]') == null) { var s = d.createElement("script"); s.src = w, s.onload = v, s.onerror = v, d.body.appendChild(s); }</script>
     </div>
 
     <div class="content">
@@ -141,7 +163,11 @@
             trial. Start growing and monetizing your Threads audience faster and more efficiently than ever before.
         </p>
         <br>
-        <iframe data-tally-src="https://tally.so/embed/wvrZel?alignLeft=1&hideTitle=1&transparentBackground=1&dynamicHeight=1" loading="lazy" width="100%" height="210" frameborder="0" marginheight="0" marginwidth="0" title="Threads Analytics Launching Soon"></iframe><script>var d=document,w="https://tally.so/widgets/embed.js",v=function(){"undefined"!=typeof Tally?Tally.loadEmbeds():d.querySelectorAll("iframe[data-tally-src]:not([src])").forEach((function(e){e.src=e.dataset.tallySrc}))};if("undefined"!=typeof Tally)v();else if(d.querySelector('script[src="'+w+'"]')==null){var s=d.createElement("script");s.src=w,s.onload=v,s.onerror=v,d.body.appendChild(s);}</script>
+        <iframe
+            data-tally-src="https://tally.so/embed/wvrZel?alignLeft=1&hideTitle=1&transparentBackground=1&dynamicHeight=1"
+            loading="lazy" width="100%" height="210" frameborder="0" marginheight="0" marginwidth="0"
+            title="Threads Analytics Launching Soon"></iframe>
+        <script>var d = document, w = "https://tally.so/widgets/embed.js", v = function () { "undefined" != typeof Tally ? Tally.loadEmbeds() : d.querySelectorAll("iframe[data-tally-src]:not([src])").forEach((function (e) { e.src = e.dataset.tallySrc })) }; if ("undefined" != typeof Tally) v(); else if (d.querySelector('script[src="' + w + '"]') == null) { var s = d.createElement("script"); s.src = w, s.onload = v, s.onerror = v, d.body.appendChild(s); }</script>
     </div>
 
     <footer class="footer">
