@@ -76,9 +76,8 @@
           .product-card {
             flex: 1 0 25%;
             max-width: 200px;
-            margin:auto 20px ;
+            margin: auto 20px;
             text-align: center;
-            display: block; /* 使元素成为块级元素 */
           }
 
           .product-card img {
@@ -86,7 +85,7 @@
             max-height: 80px;
             width: auto;
             height: auto;
-            margin: 0 auto; 
+            margin: 5px 20px; /* 居中对齐 */
             display: block; /* 使元素成为块级元素 */
           }
 
