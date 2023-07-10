@@ -85,7 +85,6 @@
             margin: 0 auto;
             align-self: center;  /*垂直居中*/ 
         }
-        
 
         .content {
             max-width: 60rem;
@@ -101,9 +100,9 @@
         }
 
         .content h2 {
-            font-size: 2rem;
-            color: #2D3748;
-            line-height: 1.1;
+            font-size: 1.5rem;
+            color: #1c232f;
+            line-height: 1.4;
         }
 
         .content p {
