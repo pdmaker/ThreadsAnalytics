@@ -65,29 +65,27 @@
             color: #2D3748;
             line-height: 1.5;
         }
+    
         .product-grid {
-            max-width: 60rem;
             display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
-            margin: auto;
-          }
-          
-          .product-card {
-            flex: 1 0 25%;
-            max-width: 200px;
-            margin: 0.5rem;
-            text-align: center;
-          }
-
-          .product-card img {
-            max-width: 200px;
-            max-height: 80px;
-            width: auto;
-            height: auto;
-            margin: 0 auto; /* 居中对齐 */
-            display: block; /* 使元素成为块级元素 */
-          }
+            max-width: 60rem;
+            flex-direction: row;
+            justify-content: space-around;
+            align-items: center;
+            margin: 0 auto;
+        }
+        
+        .product-card {
+            width: 200px;
+            height: 80px;
+        }
+        
+        .product-card img {
+            display: block;
+            margin: 0 auto;
+            align-self: center;  /*垂直居中*/ 
+        }
+        
 
         .content {
             max-width: 60rem;
