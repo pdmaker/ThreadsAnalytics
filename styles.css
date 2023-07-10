@@ -5,12 +5,31 @@
             line-height: 1.5;
         }
 
+        @media screen and (max-width: 600px) {
+            .contentTitle, .content {
+                margin: 1rem auto;
+            }
+        
+            .contentTitle h2 {
+                font-size: 2rem;
+            }
+        
+            .product-card {
+                flex: 1 0 100%;
+            }
+        
+            .content {
+                grid-template-columns: 1fr;
+            }
+        }
+        
+
         .navbar {
             display: flex;
             justify-content: space-between;
             padding: 1.0rem;
             background-color: #1e2165;
-            margin-bottom: 100px;
+            margin-bottom: 50px;
             position: sticky;
             top: 0;
             z-index: 1000;
@@ -46,6 +65,30 @@
             color: #2D3748;
             line-height: 1.5;
         }
+        .product-grid {
+            max-width: 60rem;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin: auto;
+          }
+          
+          .product-card {
+            flex: 1 0 25%;
+            max-width: 200px;
+            margin:auto 20px ;
+            text-align: center;
+            display: block; /* 使元素成为块级元素 */
+          }
+
+          .product-card img {
+            max-width: 200px;
+            max-height: 80px;
+            width: auto;
+            height: auto;
+            margin: 0 auto; 
+            display: block; /* 使元素成为块级元素 */
+          }
 
         .content {
             max-width: 60rem;
@@ -53,6 +96,7 @@
             display: grid;
             grid-template-columns: 1fr 1fr;
             gap: 2rem;
+            width: 100%;
         }
 
         .content div {
@@ -67,6 +111,13 @@
 
         .content p {
             color: #4A5568;
+        }
+
+        .recommend h3 {
+            font-size: 1.5rem;
+            color: #4A5568;
+            margin: 20px 0;
+            text-align: center;
         }
 
         .trial {
